@@ -1,0 +1,20 @@
+.series_body{
+    padding: 2rem 0;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+h6{
+    color: rgb(61, 62, 63);
+}
+Button{
+    margin: 0.5rem;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

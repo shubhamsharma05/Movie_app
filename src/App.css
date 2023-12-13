@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.body {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+
+
+.movie_card {
+  margin: 1rem;
+  width: 20%;
+  height: 350px;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+@media screen and (max-width:1000px) {
+  .movie_card {
+    width: 40%;
+  }
+
+}
+
+
+@media screen and (max-width:620px) {
+  .movie_card {
+    width: 45%;
+    margin: 0.5rem;
+    height: 300px;
+  }
+  .title{
+    font-size: 1rem;
+  }
+  .btn{
+    font-size: small;
+  }
+
+  .body {
+   width: 100%;
+  }
+
+}
+
+.cardImg {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
